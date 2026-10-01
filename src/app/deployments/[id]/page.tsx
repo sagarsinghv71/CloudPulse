@@ -121,8 +121,8 @@ export default function DeploymentDetailPage({
                     deployment.status === "SUCCESSFUL"
                       ? "success"
                       : deployment.status === "ROLLED_BACK"
-                      ? "warning"
-                      : "destructive"
+                        ? "warning"
+                        : "destructive"
                   }
                   size="md"
                 >
